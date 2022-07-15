@@ -1,0 +1,63 @@
+/* 
+1. Position
+2. Box Model
+3. Tipography
+4. Visuals
+5. Others
+*/
+
+:root{
+    /* Colors */
+    --gradient: linear-gradient(180deg, rgba(255, 234, 197, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%);
+    --purple-strong: #6E4CD1;
+    --purple-light: #C5B1FF;
+    --yellow: #F7CB5D;
+    --black: #282623;
+    --grey: #BABABA;
+    --offWhite: #FAF8F7;
+    --white: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__Container > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__Item{
+    width: 279px;
+    height: 128px;
+
+    margin: 72px 0;
+
+    list-style-type: none;
+
+    outline: 1px solid #C8BBA3;
+    background: rgba(255, 255, 255, 0.47);
+    backdrop-filter: blur(37px);
+}
