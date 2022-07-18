@@ -1,0 +1,7 @@
+.footer__Container > ul{
+    flex-direction: row;
+}
+
+.footer__Item{
+    margin: 15px 10px;
+}

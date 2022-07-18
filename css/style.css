@@ -41,7 +41,7 @@ body{
 
 .footer__Container > ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
@@ -53,7 +53,7 @@ body{
     width: 279px;
     height: 128px;
 
-    margin: 72px 0;
+    margin: 20px 0;
 
     list-style-type: none;
 

@@ -1,0 +1,13 @@
+.footer__Container > ul{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+width: 100vw;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.footer__Item{
+    margin: 15px 15px;
+}
