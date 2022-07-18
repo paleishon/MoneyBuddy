@@ -16,6 +16,7 @@
     --grey: #BABABA;
     --offWhite: #FAF8F7;
     --white: #FFFFFF;
+    --black-nav: #706757
 }
 
 *{
@@ -38,6 +39,49 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.header-title {
+    position: absolute;
+    width: 202px;
+    height: 41px;
+    left: 177px;
+    top: 30px;
+    font-family:'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+    letter-spacing: -0.055em;
+    color: #333028;
+}
+ 
+.nav__Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    position: absolute;
+    width: 70vw;
+    height: 50px;
+    right: 110px;
+    top: 55px;
+   
+}
+ 
+.nav__Container .nav__item-text{
+    width: 67px;
+    height: 21px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--black-nav);
+    text-decoration: none;
+ 
+ 
+}
+
 
 .footer__Container > ul{
     display: flex;
