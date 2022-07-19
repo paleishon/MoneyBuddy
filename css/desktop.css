@@ -1,3 +1,6 @@
+.nav__Container {
+    right: 120px;
+}
 .footer__Container > ul{
     flex-direction: row;
 }

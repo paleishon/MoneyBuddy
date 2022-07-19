@@ -1,16 +1,16 @@
 .header-title {
-    width: 50%;
+    width: 202px;
+    height: 41px;
+    left: 120px;
+    top: 40px;
 
 }
-.nav__Containter {
-   
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav__Containter .nav__item-text {
-    width: 623px;
-
+.nav__Container {
+    width: 388px;
+    height: 65px;
+    right: 18px;
+    top: 28px;
+    
 }
 
 .footer__Container > ul{
